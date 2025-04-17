@@ -1,48 +1,88 @@
-# Dependency directories
-node_modules/
-dist/
 
+!.vscode/extensions.json
+# Build and cache directories
 # Cloudflare Worker
-.wrangler/
-.env
-**/*.log
-
+# Coverage and testing
+# Dependency directories
+# Diagnostic reports
 # Editor files
-.vscode/
-.idea/
-
-# System Files
-.DS_Store
-Thumbs.db
-
-
+# Environment files
 # Logs
-logs
+# Package files
+# Runtime data
+# Snowpack and other tools
+# System Files
+# TypeScript
+**/*.log
+**/.vitepress/cache
+*.lcov
 *.log
+*.njsproj
+*.ntvs*
+*.pid
+*.pid.lock
+*.seed
+*.sln
+*.suo
+*.sw?
+*.tgz
+*.toml.secret
+*.tsbuildinfo
+.cache
+.docusaurus
+.DS_Store
+.dynamodb/
+.env
+.env.development.local
+.env.local
+.env.production.local
+.env.test.local
+.fusebox/
+.grunt
+.idea/
+.lock-wscript
+.next
+.node_repl_history
+.nuxt
+.nyc_output
+.parcel-cache
+.pnp.*
+.pnpm-debug.log*
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.serverless/
+.temp
+.tern-port
+.vitepress/dist
+.vscode/*
+.vscode-test
+.vuepress/dist
+.wrangler/
+.yarn/build-state.yml
+.yarn/cache
+.yarn/install-state.gz
+.yarn/unplugged
+.yarn-integrity
+/cypress/screenshots/
+/cypress/videos/
+bower_components/
+build/Release
+coverage
+dist/
+dist-ssr/
+jspm_packages/
+lerna-debug.log*
+lib-cov
+logs
+node_modules/
 npm-debug.log*
+out
+pids
+pnpm-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+Thumbs.db
+web_modules/
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-node_modules
-.DS_Store
-dist
-dist-ssr
-coverage
-*.local
-
-/cypress/videos/
-/cypress/screenshots/
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
-*.tsbuildinfo
