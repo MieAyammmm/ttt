@@ -4,7 +4,7 @@ dist/
 
 # Cloudflare Worker
 .wrangler/
-**/.env
+.env
 **/*.log
 
 # Editor files
