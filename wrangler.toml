@@ -1,0 +1,8 @@
+name = "task-tracker-worker"
+compatibility_date = "2025-04-17"
+main = "worker.js"  # Sesuaikan dengan nama file Worker Anda
+
+[[d1_databases]]
+binding = "DB"
+database_name = "task_db"
+database_id = "e5b251ac-4494-4abd-be1e-2de064e2f9ef"  # Ganti dengan ID database Anda
