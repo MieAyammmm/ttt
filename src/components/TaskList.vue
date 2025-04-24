@@ -19,7 +19,7 @@
 <script setup>
 import { ref, onMounted } from "vue";
 
-const API_URL = "https://taskteam.workers.dev"; // Ganti dengan URL Worker Anda
+const API_URL = "https://task-tracker-worker.dhannizd2.workers.dev/";
 const tasks = ref([]);
 const newTask = ref({ title: "" });
 
