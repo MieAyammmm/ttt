@@ -1,12 +1,11 @@
-// src/router/index.js
 import { createRouter, createWebHistory } from "vue-router";
 import TaskList from "../components/TaskList.vue";
 
 const routes = [
   {
-    path: "/tasklist",
+    path: "/tasks",
     component: TaskList,
-    name: "tasks", // Tambahkan nama route
+    name: "TaskList",
   },
 ];
 
