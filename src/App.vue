@@ -1,7 +1,7 @@
 <template>
   <div class="app">
     <header>
-      <h1>Task Tracker</h1>
+      <h1 class="text-3xl font-bold underline">Task Tracker</h1>
       <nav>
         <router-link to="/tasks">Daftar Tugas</router-link>
       </nav>
